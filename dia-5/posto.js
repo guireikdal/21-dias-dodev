@@ -5,13 +5,13 @@ switch(pedido){
 
         case 1:
             let gasolina = parseInt(prompt("Quantos reais de Gasolina quer abastecer?"));
-                console.log ("Esse valor equivale à " + gasolina / 5 + " litros");
-                break; 
+            console.log ("Esse valor equivale à " + gasolina / 5 + " litros");
+            break; 
 
         case 2: 
              let alcool = parseInt(prompt("Quantos reais de álcool quer abastecer?"));
-                console.log ("Esse valor equivale à " + alcool / 3 + " litros");
-                break;
+             console.log ("Esse valor equivale à " + alcool / 3 + " litros");
+            break;
              
         case 3: 
             console.log("Pneus calibrados com sucesso!");
@@ -19,6 +19,4 @@ switch(pedido){
 
         default:
             console.log("Não oferecemos esse serviço")
- 
-
 }
